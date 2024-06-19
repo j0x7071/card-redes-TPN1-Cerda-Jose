@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    padding: 3em;
+    font-family: "Roboto";
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 117, 31);
+    color: rgb(245, 210, 114);
+}
+
+.Card { 
+    display: flex;
+    padding: 0.6em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(112, 66, 5);
+    box-shadow: #000 2em 2em 50px;
+    width: 90%;
+    
+}
+
+img{
+    width:120px;
+    border: 2px solid #fff;
+    margin-bottom: 1em;
+}
+
+.Top{
+    margin: 0.5em;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: dotted white 3px;    
+    
+}
+
+h1{
+    font-size: 1em;
+}
+
+p{
+    font-size: 0.8em;
+    padding: 0.7em;
+}
+
+.Bot{
+    width: 100%;
+    padding-top: 0.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    background-color: #fff;
+    color:#000;
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em; 
+    border-radius: 3em;;
+    display: flex;
+    width: 60%;
+    font-size: 0.7em;
+    justify-content: center;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.gh:hover {
+    transition: 1s;
+    background-color:#000;
+    color: #fff;
+}
+.ig:hover {
+    transition: 1s;
+    background-color: palevioletred;
+    color: #fff;
+}
+.fb:hover {
+    transition: 1s;
+    background-color: blue;
+    color: #fff;
+}
+
+.ct:hover {
+    transition: 1s;
+    background-color:darkorchid ;
+    color: #fff;
+}
+
+.yt:hover {
+    transition: 1s;
+    background-color: red;
+    color: #fff;
+}
+
+
+@media (min-width: 480px){
+    img{
+        width: 135px;
+    }
+    h1{
+        font-size: 1.5em ;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    a{
+        font-size: 0.8em;
+        padding: 0.2em;
+        margin: 0.2em;
+    }
+
+}
+
+
+@media (min-width: 760px){
+    .Card{
+        width: 75%;
+    }
+    img{
+        width: 140px;
+    }
+    h1{
+        font-size: 1.8em ;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    a{
+        font-size: 0.9em;
+        padding: 0.2em;
+        margin: 0.2em;
+    }
+
+}
+
+
+@media (min-width: 1024px){
+    .Card{
+        width: 90%;
+    }
+    img{
+        width: 160px;
+    }
+    h1{
+        font-size: 2em ;
+    }
+    p{
+        font-size: 1em;
+    }
+    a{
+        font-size: 1em;
+        padding: 0.3em;
+        margin: 0.3em;
+    }
+    .Top{
+        width: 90%;  
+    }
+    
+
+}
+
+@media (min-width: 1200px){
+    .Card{
+        width: 30%;
+    }
+    img{
+        width: 160px;
+    }
+    h1{
+        font-size: 2em ;
+    }
+    p{
+        font-size: 1em;
+    }
+    a{
+        font-size: 1em;
+        padding: 0.3em;
+        margin: 0.3em;
+    }
+}
